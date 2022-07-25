@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    scrollbar-color: #474747 #292929;
+}
+
+::-webkit-scrollbar{
+    background: #292929;
+    width: 12px;
+}
+
+.container{
+    background: url(bg.png);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 100px;
+    background: rgb(23, 22, 21);
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #ffff;
+}
